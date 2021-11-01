@@ -3,11 +3,8 @@
 -------------------------------------------------
    File Name：     setting.py
    Description :   配置文件
-   Author :        JHao
-   date：          2019/2/15
--------------------------------------------------
-   Change Activity:
-                   2019/2/15:
+   Author :        chenyanzhi
+   date：          2021/11/1
 -------------------------------------------------
 """
 
@@ -37,10 +34,10 @@ PORT = 5010
 # example:
 #      Redis: redis://:password@ip:port/db
 #      Ssdb:  ssdb://:password@ip:port
-DB_CONN = 'redis://:pwd@127.0.0.1:6379/0'
+DB_CONN = 'redis://:mz21g@127.0.0.1:6379/0'
 
 # proxy table name
-TABLE_NAME = 'use_proxy'
+TABLE_NAME = 'proxy_pool'
 
 
 # ###### config the proxy fetch function ######

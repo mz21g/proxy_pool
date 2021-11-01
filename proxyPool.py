@@ -3,14 +3,11 @@
 -------------------------------------------------
    File Name：     proxy_pool
    Description :   proxy pool 启动入口
-   Author :        JHao
-   date：          2020/6/19
--------------------------------------------------
-   Change Activity:
-                   2020/6/19:
+   Author :        yanzhichen
+   date：          2021/11/1
 -------------------------------------------------
 """
-__author__ = 'JHao'
+__author__ = 'yanzhichen'
 
 import click
 from helper.launcher import startServer, startScheduler
